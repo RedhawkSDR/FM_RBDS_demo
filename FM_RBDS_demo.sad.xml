@@ -2,25 +2,25 @@
 <!DOCTYPE softwareassembly PUBLIC "-//JTRS//DTD SCA V2.2.2 SAD//EN" "softwareassembly.dtd">
 <softwareassembly id="DCE:fffbc84d-5c65-4ce7-9317-c6167db7d5cc" name="FM_RBDS_demo">
   <componentfiles>
-    <componentfile id="TuneFilterDecimate_7d22c4f5-d878-49c8-81ea-531becfd66f5" type="SPD">
+    <componentfile id="TuneFilterDecimate_94023254-44aa-4d1b-9e49-dbb214586a4b" type="SPD">
       <localfile name="/components/TuneFilterDecimate/TuneFilterDecimate.spd.xml"/>
     </componentfile>
-    <componentfile id="fastfilter_66b0181b-7f1e-4920-8d79-5e08c9fbed6a" type="SPD">
+    <componentfile id="fastfilter_73ad70df-4b48-410d-b236-0a9adbfcb7a1" type="SPD">
       <localfile name="/components/fastfilter/fastfilter.spd.xml"/>
     </componentfile>
-    <componentfile id="RBDSDecoder_727eeaf0-79a0-48c8-a5aa-d6203c1dd40d" type="SPD">
+    <componentfile id="RBDSDecoder_5d7dec30-b0e9-42bc-a940-705fa44b73bb" type="SPD">
       <localfile name="/components/RBDSDecoder/RBDSDecoder.spd.xml"/>
     </componentfile>
-    <componentfile id="AmFmPmBasebandDemod_960adfc0-8508-4e7b-a0ba-b2f1c53e7746" type="SPD">
+    <componentfile id="AmFmPmBasebandDemod_2694bd80-14d9-4172-8d3d-497d5eb18ab0" type="SPD">
       <localfile name="/components/AmFmPmBasebandDemod/AmFmPmBasebandDemod.spd.xml"/>
     </componentfile>
-    <componentfile id="psk_soft_a7a4b6fe-33de-4bb5-8c30-656b8c04d442" type="SPD">
+    <componentfile id="psk_soft_6a05ce0f-5d55-47fe-89ba-b0a4ac52d161" type="SPD">
       <localfile name="/components/psk_soft/psk_soft.spd.xml"/>
     </componentfile>
   </componentfiles>
   <partitioning>
     <componentplacement>
-      <componentfileref refid="TuneFilterDecimate_7d22c4f5-d878-49c8-81ea-531becfd66f5"/>
+      <componentfileref refid="TuneFilterDecimate_94023254-44aa-4d1b-9e49-dbb214586a4b"/>
       <componentinstantiation id="TuneFilterDecimate_1" startorder="0">
         <usagename>TuneFilterDecimate_1</usagename>
         <componentproperties>
@@ -36,7 +36,7 @@
       </componentinstantiation>
     </componentplacement>
     <componentplacement>
-      <componentfileref refid="RBDSDecoder_727eeaf0-79a0-48c8-a5aa-d6203c1dd40d"/>
+      <componentfileref refid="RBDSDecoder_5d7dec30-b0e9-42bc-a940-705fa44b73bb"/>
       <componentinstantiation id="RBDSDecoder_1" startorder="5">
         <usagename>RBDSDecoder_1</usagename>
         <findcomponent>
@@ -45,7 +45,7 @@
       </componentinstantiation>
     </componentplacement>
     <componentplacement>
-      <componentfileref refid="AmFmPmBasebandDemod_960adfc0-8508-4e7b-a0ba-b2f1c53e7746"/>
+      <componentfileref refid="AmFmPmBasebandDemod_2694bd80-14d9-4172-8d3d-497d5eb18ab0"/>
       <componentinstantiation id="AmFmPmBasebandDemod_1" startorder="1">
         <usagename>AmFmPmBasebandDemod_1</usagename>
         <componentproperties>
@@ -57,7 +57,7 @@
       </componentinstantiation>
     </componentplacement>
     <componentplacement>
-      <componentfileref refid="TuneFilterDecimate_7d22c4f5-d878-49c8-81ea-531becfd66f5"/>
+      <componentfileref refid="TuneFilterDecimate_94023254-44aa-4d1b-9e49-dbb214586a4b"/>
       <componentinstantiation id="TuneFilterDecimate_2" startorder="2">
         <usagename>TuneFilterDecimate_2</usagename>
         <componentproperties>
@@ -72,7 +72,7 @@
       </componentinstantiation>
     </componentplacement>
     <componentplacement>
-      <componentfileref refid="psk_soft_a7a4b6fe-33de-4bb5-8c30-656b8c04d442"/>
+      <componentfileref refid="psk_soft_6a05ce0f-5d55-47fe-89ba-b0a4ac52d161"/>
       <componentinstantiation id="psk_soft_1" startorder="4">
         <usagename>psk_soft_1</usagename>
         <componentproperties>
@@ -87,7 +87,7 @@
       </componentinstantiation>
     </componentplacement>
     <componentplacement>
-      <componentfileref refid="fastfilter_66b0181b-7f1e-4920-8d79-5e08c9fbed6a"/>
+      <componentfileref refid="fastfilter_73ad70df-4b48-410d-b236-0a9adbfcb7a1"/>
       <componentinstantiation id="fastfilter_2" startorder="3">
         <usagename>MatchedFilter</usagename>
         <componentproperties>
@@ -148,11 +148,11 @@
     </connectinterface>
     <connectinterface id="connection_3">
       <usesport>
-        <usesidentifier>dataFloat_Out</usesidentifier>
+        <usesidentifier>dataFloat_out</usesidentifier>
         <componentinstantiationref refid="TuneFilterDecimate_1"/>
       </usesport>
       <providesport>
-        <providesidentifier>dataFloat_In</providesidentifier>
+        <providesidentifier>dataFloat_in</providesidentifier>
         <componentinstantiationref refid="AmFmPmBasebandDemod_1"/>
       </providesport>
     </connectinterface>
@@ -162,7 +162,7 @@
         <componentinstantiationref refid="AmFmPmBasebandDemod_1"/>
       </usesport>
       <providesport>
-        <providesidentifier>dataFloat_In</providesidentifier>
+        <providesidentifier>dataFloat_in</providesidentifier>
         <componentinstantiationref refid="TuneFilterDecimate_2"/>
       </providesport>
     </connectinterface>
@@ -188,7 +188,7 @@
     </connectinterface>
     <connectinterface id="connection_12">
       <usesport>
-        <usesidentifier>dataFloat_Out</usesidentifier>
+        <usesidentifier>dataFloat_out</usesidentifier>
         <componentinstantiationref refid="TuneFilterDecimate_2"/>
       </usesport>
       <providesport>
@@ -196,5 +196,20 @@
         <componentinstantiationref refid="fastfilter_2"/>
       </providesport>
     </connectinterface>
+    <connectinterface>
+      <usesport>
+        <usesidentifier>dataFloat_out</usesidentifier>
+        <deviceusedbyapplication usesrefid="DCE:6aad3b98-a0fb-495f-8db8-5c13b1e0cb87"/>
+      </usesport>
+      <providesport>
+        <providesidentifier>dataFloat_in</providesidentifier>
+        <componentinstantiationref refid="TuneFilterDecimate_1"/>
+      </providesport>
+    </connectinterface>
   </connections>
+  <usesdevicedependencies>
+    <usesdevice id="DCE:6aad3b98-a0fb-495f-8db8-5c13b1e0cb87" type="usesFEIdataFloatDevice">
+      <propertyref refid="DCE:cdc5ee18-7ceb-4ae6-bf4c-31f983179b4d" value="FRONTEND::TUNER"/>
+    </usesdevice>
+  </usesdevicedependencies>
 </softwareassembly>
