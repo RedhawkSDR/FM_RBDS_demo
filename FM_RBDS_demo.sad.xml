@@ -88,7 +88,7 @@
     </componentplacement>
     <componentplacement>
       <componentfileref refid="fastfilter_73ad70df-4b48-410d-b236-0a9adbfcb7a1"/>
-      <componentinstantiation id="fastfilter_2" startorder="3">
+      <componentinstantiation id="MatchedFilter" startorder="3">
         <usagename>MatchedFilter</usagename>
         <componentproperties>
           <simplesequenceref refid="realFilterCoefficients">
@@ -128,7 +128,7 @@
           </simplesequenceref>
         </componentproperties>
         <findcomponent>
-          <namingservice name="fastfilter_2"/>
+          <namingservice name="MatchedFilter"/>
         </findcomponent>
       </componentinstantiation>
     </componentplacement>
@@ -179,7 +179,7 @@
     <connectinterface id="connection_10">
       <usesport>
         <usesidentifier>dataFloat_out</usesidentifier>
-        <componentinstantiationref refid="fastfilter_2"/>
+        <componentinstantiationref refid="MatchedFilter"/>
       </usesport>
       <providesport>
         <providesidentifier>dataFloat_in</providesidentifier>
@@ -193,7 +193,7 @@
       </usesport>
       <providesport>
         <providesidentifier>dataFloat_in</providesidentifier>
-        <componentinstantiationref refid="fastfilter_2"/>
+        <componentinstantiationref refid="MatchedFilter"/>
       </providesport>
     </connectinterface>
   </connections>
