@@ -11,7 +11,7 @@ Name: rh.FM_RBDS_demo
 Summary: Waveform rh.FM_RBDS_demo
 Version: 1.0.0
 Release: 1%{?dist}
-License: None
+License: LGPLv3+
 Group: REDHAWK/Waveforms
 Source: %{name}-%{version}.tar.gz
 # Require the controller whose SPD is referenced
