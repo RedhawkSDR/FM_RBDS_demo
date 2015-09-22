@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pi:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:ext="http://www.redhawk.gov/model/rhsadgext/1.0.0" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" visible="true" gridUnit="10" diagramTypeId="SADDiagram" name="FM_RBDS_demo.sad_GDiagram" snapToGrid="true" pictogramLinks="//@children.0/@link //@children.0/@children.1/@link //@children.0/@children.1/@anchors.0/@link //@children.0/@children.2/@link //@children.0/@children.2/@children.0/@link //@children.0/@children.2/@children.0/@children.0/@link //@children.0/@children.2/@children.0/@children.0/@anchors.0/@link //@children.0/@children.3/@link //@children.0/@children.3/@children.0/@link //@children.0/@children.3/@children.0/@children.0/@link //@children.0/@children.3/@children.0/@children.0/@anchors.0/@link //@children.0/@children.0/@children.0/@link //@children.1/@link //@children.1/@children.1/@link //@children.1/@children.1/@anchors.0/@link //@children.1/@children.2/@link //@children.1/@children.2/@children.0/@link //@children.1/@children.2/@children.0/@children.0/@link //@children.1/@children.2/@children.0/@children.0/@anchors.0/@link //@children.1/@children.3/@link //@children.1/@children.3/@children.0/@link //@children.1/@children.3/@children.0/@children.0/@link //@children.1/@children.3/@children.0/@children.0/@anchors.0/@link //@children.2/@link //@children.2/@children.1/@link //@children.2/@children.1/@anchors.0/@link //@children.2/@children.2/@link //@children.2/@children.2/@children.0/@link //@children.2/@children.2/@children.0/@children.0/@link //@children.2/@children.2/@children.0/@children.0/@anchors.0/@link //@children.2/@children.3/@link //@children.2/@children.3/@children.0/@link //@children.2/@children.3/@children.0/@children.0/@link //@children.2/@children.3/@children.0/@children.0/@anchors.0/@link //@children.2/@children.3/@children.1/@link //@children.2/@children.3/@children.1/@children.0/@link //@children.2/@children.3/@children.1/@children.0/@anchors.0/@link //@children.2/@children.3/@children.2/@link //@children.2/@children.3/@children.2/@children.0/@link //@children.2/@children.3/@children.2/@children.0/@anchors.0/@link //@children.3/@link //@children.3/@children.1/@link //@children.3/@children.1/@anchors.0/@link //@children.3/@children.2/@link //@children.3/@children.2/@children.0/@link //@children.3/@children.2/@children.0/@children.0/@link //@children.3/@children.2/@children.0/@children.0/@anchors.0/@link //@children.3/@children.3/@link //@children.3/@children.3/@children.0/@link //@children.3/@children.3/@children.0/@children.0/@link //@children.3/@children.3/@children.0/@children.0/@anchors.0/@link //@children.4/@link //@children.4/@children.1/@link //@children.4/@children.1/@anchors.0/@link //@children.4/@children.2/@link //@children.4/@children.2/@children.0/@link //@children.4/@children.2/@children.0/@children.0/@link //@children.4/@children.2/@children.0/@children.0/@anchors.0/@link //@children.4/@children.3/@link //@children.4/@children.3/@children.0/@link //@children.4/@children.3/@children.0/@children.0/@link //@children.4/@children.3/@children.0/@children.0/@anchors.0/@link //@children.4/@children.3/@children.1/@link //@children.4/@children.3/@children.1/@children.0/@link //@children.4/@children.3/@children.1/@children.0/@anchors.0/@link //@children.4/@children.3/@children.2/@link //@children.4/@children.3/@children.2/@children.0/@link //@children.4/@children.3/@children.2/@children.0/@anchors.0/@link //@children.4/@children.3/@children.3/@link //@children.4/@children.3/@children.3/@children.0/@link //@children.4/@children.3/@children.3/@children.0/@anchors.0/@link //@children.5/@link //@children.5/@children.1/@link //@children.5/@children.1/@anchors.0/@link //@children.5/@children.2/@link //@children.5/@children.2/@children.0/@link //@children.5/@children.2/@children.0/@children.0/@link //@children.5/@children.2/@children.0/@children.0/@anchors.0/@link //@children.5/@children.3/@link //@children.5/@children.3/@children.0/@link //@children.5/@children.3/@children.0/@children.0/@link //@children.5/@children.3/@children.0/@children.0/@anchors.0/@link //@connections.0/@link //@connections.1/@link //@connections.2/@link //@connections.3/@link //@connections.4/@link" version="0.12.0">
+<pi:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:ext="http://www.redhawk.gov/model/rhsadgext/1.0.0" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" visible="true" gridUnit="10" diagramTypeId="SADDiagram" name="FM_RBDS_demo.sad_GDiagram" snapToGrid="true" pictogramLinks="//@children.0/@link //@children.0/@children.1/@link //@children.0/@children.1/@anchors.0/@link //@children.0/@children.2/@link //@children.0/@children.2/@children.0/@link //@children.0/@children.2/@children.0/@children.0/@link //@children.0/@children.2/@children.0/@children.0/@anchors.0/@link //@children.0/@children.3/@link //@children.0/@children.3/@children.0/@link //@children.0/@children.3/@children.0/@children.0/@link //@children.0/@children.3/@children.0/@children.0/@anchors.0/@link //@children.0/@children.0/@children.0/@link //@children.1/@link //@children.1/@children.1/@link //@children.1/@children.1/@anchors.0/@link //@children.1/@children.2/@link //@children.1/@children.2/@children.0/@link //@children.1/@children.2/@children.0/@children.0/@link //@children.1/@children.2/@children.0/@children.0/@anchors.0/@link //@children.1/@children.3/@link //@children.1/@children.3/@children.0/@link //@children.1/@children.3/@children.0/@children.0/@link //@children.1/@children.3/@children.0/@children.0/@anchors.0/@link //@children.2/@link //@children.2/@children.1/@link //@children.2/@children.1/@anchors.0/@link //@children.2/@children.2/@link //@children.2/@children.2/@children.0/@link //@children.2/@children.2/@children.0/@children.0/@link //@children.2/@children.2/@children.0/@children.0/@anchors.0/@link //@children.2/@children.3/@link //@children.2/@children.3/@children.0/@link //@children.2/@children.3/@children.0/@children.0/@link //@children.2/@children.3/@children.0/@children.0/@anchors.0/@link //@children.2/@children.3/@children.1/@link //@children.2/@children.3/@children.1/@children.0/@link //@children.2/@children.3/@children.1/@children.0/@anchors.0/@link //@children.2/@children.3/@children.2/@link //@children.2/@children.3/@children.2/@children.0/@link //@children.2/@children.3/@children.2/@children.0/@anchors.0/@link //@children.3/@link //@children.3/@children.1/@link //@children.3/@children.1/@anchors.0/@link //@children.3/@children.2/@link //@children.3/@children.2/@children.0/@link //@children.3/@children.2/@children.0/@children.0/@link //@children.3/@children.2/@children.0/@children.0/@anchors.0/@link //@children.3/@children.3/@link //@children.3/@children.3/@children.0/@link //@children.3/@children.3/@children.0/@children.0/@link //@children.3/@children.3/@children.0/@children.0/@anchors.0/@link //@children.4/@link //@children.4/@children.1/@link //@children.4/@children.1/@anchors.0/@link //@children.4/@children.2/@link //@children.4/@children.2/@children.0/@link //@children.4/@children.2/@children.0/@children.0/@link //@children.4/@children.2/@children.0/@children.0/@anchors.0/@link //@children.4/@children.3/@link //@children.5/@link //@children.5/@children.1/@link //@children.5/@children.1/@anchors.0/@link //@children.5/@children.2/@link //@children.5/@children.2/@children.0/@link //@children.5/@children.2/@children.0/@children.0/@link //@children.5/@children.2/@children.0/@children.0/@anchors.0/@link //@children.5/@children.3/@link //@children.5/@children.3/@children.0/@link //@children.5/@children.3/@children.0/@children.0/@link //@children.5/@children.3/@children.0/@children.0/@anchors.0/@link //@children.4/@children.3/@children.0/@link //@children.4/@children.3/@children.0/@children.0/@link //@children.4/@children.3/@children.0/@children.0/@anchors.0/@link //@children.4/@children.3/@children.1/@link //@children.4/@children.3/@children.1/@children.0/@link //@children.4/@children.3/@children.1/@children.0/@anchors.0/@link //@children.4/@children.3/@children.2/@link //@children.4/@children.3/@children.2/@children.0/@link //@children.4/@children.3/@children.2/@children.0/@anchors.0/@link //@children.4/@children.3/@children.3/@link //@children.4/@children.3/@children.3/@children.0/@link //@children.4/@children.3/@children.3/@children.0/@anchors.0/@link //@connections.0/@link //@connections.1/@link //@connections.2/@link //@connections.3/@link //@connections.4/@link" version="0.12.0">
   <properties key="DiagramContext" value="design"/>
   <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.1" foreground="//@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
   <link>
     <businessObjects href="FM_RBDS_demo.sad.xml#DCE:8fe2091e-1a24-11e5-a687-3417ebc4aab5"/>
   </link>
-  <children xsi:type="ext:ComponentShape" visible="true" active="true" connectionMap="ACED0005737200256A6176612E7574696C2E436F6C6C656374696F6E732453796E6368726F6E697A65644D61701B73F9094B4B397B0300024C00016D74000F4C6A6176612F7574696C2F4D61703B4C00056D757465787400124C6A6176612F6C616E672F4F626A6563743B7870737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F40000000000010770800000010000000007871007E000378" hasPortsContainerShape="true">
+  <children xsi:type="ext:ComponentShape" visible="true" active="true" hasPortsContainerShape="true">
     <properties key="GAType" value="outerContainerShape"/>
     <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.5" width="278" height="90" x="10" y="10" style="//@styles.0" cornerHeight="5" cornerWidth="5">
       <properties key="GAType" value="outerRoundedRectangle"/>
@@ -151,7 +151,7 @@
       </children>
     </children>
   </children>
-  <children xsi:type="ext:ComponentShape" visible="true" active="true" connectionMap="ACED0005737200256A6176612E7574696C2E436F6C6C656374696F6E732453796E6368726F6E697A65644D61701B73F9094B4B397B0300024C00016D74000F4C6A6176612F7574696C2F4D61703B4C00056D757465787400124C6A6176612F6C616E672F4F626A6563743B7870737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F40000000000010770800000010000000007871007E000378" hasPortsContainerShape="true">
+  <children xsi:type="ext:ComponentShape" visible="true" active="true" hasPortsContainerShape="true">
     <properties key="GAType" value="outerContainerShape"/>
     <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.5" width="251" height="90" x="1799" y="10" style="//@styles.0" cornerHeight="5" cornerWidth="5">
       <properties key="GAType" value="outerRoundedRectangle"/>
@@ -294,7 +294,7 @@
       </children>
     </children>
   </children>
-  <children xsi:type="ext:ComponentShape" visible="true" active="true" connectionMap="ACED0005737200256A6176612E7574696C2E436F6C6C656374696F6E732453796E6368726F6E697A65644D61701B73F9094B4B397B0300024C00016D74000F4C6A6176612F7574696C2F4D61703B4C00056D757465787400124C6A6176612F6C616E672F4F626A6563743B7870737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F40000000000010770800000010000000007871007E000378" hasPortsContainerShape="true">
+  <children xsi:type="ext:ComponentShape" visible="true" active="true" hasPortsContainerShape="true">
     <properties key="GAType" value="outerContainerShape"/>
     <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.5" width="331" height="130" x="368" y="10" style="//@styles.0" cornerHeight="5" cornerWidth="5">
       <properties key="GAType" value="outerRoundedRectangle"/>
@@ -498,7 +498,7 @@
       </children>
     </children>
   </children>
-  <children xsi:type="ext:ComponentShape" visible="true" active="true" connectionMap="ACED0005737200256A6176612E7574696C2E436F6C6C656374696F6E732453796E6368726F6E697A65644D61701B73F9094B4B397B0300024C00016D74000F4C6A6176612F7574696C2F4D61703B4C00056D757465787400124C6A6176612F6C616E672F4F626A6563743B7870737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F40000000000010770800000010000000007871007E000378" hasPortsContainerShape="true">
+  <children xsi:type="ext:ComponentShape" visible="true" active="true" hasPortsContainerShape="true">
     <properties key="GAType" value="outerContainerShape"/>
     <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.5" width="278" height="90" x="726" y="10" style="//@styles.0" cornerHeight="5" cornerWidth="5">
       <properties key="GAType" value="outerRoundedRectangle"/>
@@ -640,7 +640,7 @@
       </children>
     </children>
   </children>
-  <children xsi:type="ext:ComponentShape" visible="true" active="true" connectionMap="ACED0005737200256A6176612E7574696C2E436F6C6C656374696F6E732453796E6368726F6E697A65644D61701B73F9094B4B397B0300024C00016D74000F4C6A6176612F7574696C2F4D61703B4C00056D757465787400124C6A6176612F6C616E672F4F626A6563743B7870737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F40000000000010770800000010000000007871007E000378" hasPortsContainerShape="true">
+  <children xsi:type="ext:ComponentShape" visible="true" active="true" hasPortsContainerShape="true">
     <properties key="GAType" value="outerContainerShape"/>
     <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.5" width="238" height="150" x="1442" y="10" style="//@styles.0" cornerHeight="5" cornerWidth="5">
       <properties key="GAType" value="outerRoundedRectangle"/>
@@ -755,13 +755,13 @@
       </link>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="ShapeType" value="usesPortContainerShape"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="128" height="15" x="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="183" height="15" x="-50"/>
         <link>
           <businessObjects href="FM_RBDS_demo.sad.xml#//@partitioning/@componentPlacement.4/@componentInstantiation.0/@uses.0"/>
         </link>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <properties key="ShapeType" value="usesPortRectangleShape"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="113" style="//@styles.8">
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="168" style="//@styles.8">
             <properties key="GAType" value="usesPortRectangle"/>
           </graphicsAlgorithm>
           <link>
@@ -778,20 +778,20 @@
           </anchors>
         </children>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="108" height="20" style="//@styles.8" horizontalAlignment="ALIGNMENT_RIGHT" value="dataFloat_out">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="163" height="20" style="//@styles.8" horizontalAlignment="ALIGNMENT_RIGHT" value="softDecision_dataFloat_out">
             <properties key="GAType" value="GA_USES_PORT_TEXT"/>
           </graphicsAlgorithm>
         </children>
       </children>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="ShapeType" value="usesPortContainerShape"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="128" height="15" x="5" y="20"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="183" height="15" x="-50" y="20"/>
         <link>
           <businessObjects href="FM_RBDS_demo.sad.xml#//@partitioning/@componentPlacement.4/@componentInstantiation.0/@uses.1"/>
         </link>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <properties key="ShapeType" value="usesPortRectangleShape"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="113" style="//@styles.8">
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="168" style="//@styles.8">
             <properties key="GAType" value="usesPortRectangle"/>
           </graphicsAlgorithm>
           <link>
@@ -808,20 +808,20 @@
           </anchors>
         </children>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="108" height="20" style="//@styles.8" horizontalAlignment="ALIGNMENT_RIGHT" value="dataShort_out">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="163" height="20" style="//@styles.8" horizontalAlignment="ALIGNMENT_RIGHT" value="bits_dataShort_out">
             <properties key="GAType" value="GA_USES_PORT_TEXT"/>
           </graphicsAlgorithm>
         </children>
       </children>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="ShapeType" value="usesPortContainerShape"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="128" height="15" x="5" y="40"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="183" height="15" x="-50" y="40"/>
         <link>
           <businessObjects href="FM_RBDS_demo.sad.xml#//@partitioning/@componentPlacement.4/@componentInstantiation.0/@uses.2"/>
         </link>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <properties key="ShapeType" value="usesPortRectangleShape"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="113" style="//@styles.8">
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="168" style="//@styles.8">
             <properties key="GAType" value="usesPortRectangle"/>
           </graphicsAlgorithm>
           <link>
@@ -838,20 +838,20 @@
           </anchors>
         </children>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="108" height="20" style="//@styles.8" horizontalAlignment="ALIGNMENT_RIGHT" value="phase_out">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="163" height="20" style="//@styles.8" horizontalAlignment="ALIGNMENT_RIGHT" value="phase_dataFloat_out">
             <properties key="GAType" value="GA_USES_PORT_TEXT"/>
           </graphicsAlgorithm>
         </children>
       </children>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="ShapeType" value="usesPortContainerShape"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="128" height="15" x="5" y="60"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="183" height="15" x="-50" y="60"/>
         <link>
           <businessObjects href="FM_RBDS_demo.sad.xml#//@partitioning/@componentPlacement.4/@componentInstantiation.0/@uses.3"/>
         </link>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <properties key="ShapeType" value="usesPortRectangleShape"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="113" style="//@styles.8">
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="168" style="//@styles.8">
             <properties key="GAType" value="usesPortRectangle"/>
           </graphicsAlgorithm>
           <link>
@@ -868,14 +868,14 @@
           </anchors>
         </children>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="108" height="20" style="//@styles.8" horizontalAlignment="ALIGNMENT_RIGHT" value="sampleIndex_out">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="163" height="20" style="//@styles.8" horizontalAlignment="ALIGNMENT_RIGHT" value="sampleIndex_dataShort_out">
             <properties key="GAType" value="GA_USES_PORT_TEXT"/>
           </graphicsAlgorithm>
         </children>
       </children>
     </children>
   </children>
-  <children xsi:type="ext:ComponentShape" visible="true" active="true" connectionMap="ACED0005737200256A6176612E7574696C2E436F6C6C656374696F6E732453796E6368726F6E697A65644D61701B73F9094B4B397B0300024C00016D74000F4C6A6176612F7574696C2F4D61703B4C00056D757465787400124C6A6176612F6C616E672F4F626A6563743B7870737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F40000000000010770800000010000000007871007E000378" hasPortsContainerShape="true">
+  <children xsi:type="ext:ComponentShape" visible="true" active="true" hasPortsContainerShape="true">
     <properties key="GAType" value="outerContainerShape"/>
     <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.5" width="221" height="90" x="1084" y="10" style="//@styles.0" cornerHeight="5" cornerWidth="5">
       <properties key="GAType" value="outerRoundedRectangle"/>

@@ -187,7 +187,7 @@ with this program.  If not, see http://www.gnu.org/licenses/.
     </connectinterface>
     <connectinterface id="connection_11">
       <usesport>
-        <usesidentifier>dataShort_out</usesidentifier>
+        <usesidentifier>bits_dataShort_out</usesidentifier>
         <componentinstantiationref refid="psk_soft_1"/>
       </usesport>
       <providesport>
