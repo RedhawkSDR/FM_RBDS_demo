@@ -1,10 +1,10 @@
-# REDHAWK Basic Waveforms - 
+# REDHAWK Basic Waveforms - FM RBDS Demo
 
 Actively Managed
  
 ## Description
 
-Contains the source and build script for the REDHAWK Basic Waveform - 
+Contains the source and build script for the REDHAWK Basic Waveform FM_RBDS_demo. This waveform processes the RBDS digitial message present in broadcast FM radio signals. This waveform tune and filters out this signal, performs a BPSK demodulation, then decodes the RBDS data.
 
 
 ## Active Tags and Branches
