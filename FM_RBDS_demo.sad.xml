@@ -36,6 +36,9 @@ with this program.  If not, see http://www.gnu.org/licenses/.
     <componentfile id="psk_soft_6a05ce0f-5d55-47fe-89ba-b0a4ac52d161" type="SPD">
       <localfile name="/components/rh/psk_soft/psk_soft.spd.xml"/>
     </componentfile>
+    <componentfile id="ArbitraryRateResampler_0b05d9fb-eeaf-42b7-a90a-33ad68d23806" type="SPD">
+      <localfile name="/components/rh/ArbitraryRateResampler/ArbitraryRateResampler.spd.xml"/>
+    </componentfile>
   </componentfiles>
   <partitioning>
     <componentplacement>
@@ -56,7 +59,7 @@ with this program.  If not, see http://www.gnu.org/licenses/.
     </componentplacement>
     <componentplacement>
       <componentfileref refid="RBDSDecoder_5d7dec30-b0e9-42bc-a940-705fa44b73bb"/>
-      <componentinstantiation id="RBDSDecoder_1" startorder="5">
+      <componentinstantiation id="RBDSDecoder_1" startorder="6">
         <usagename>RBDSDecoder_1</usagename>
         <findcomponent>
           <namingservice name="RBDSDecoder_1"/>
@@ -92,7 +95,7 @@ with this program.  If not, see http://www.gnu.org/licenses/.
     </componentplacement>
     <componentplacement>
       <componentfileref refid="psk_soft_6a05ce0f-5d55-47fe-89ba-b0a4ac52d161"/>
-      <componentinstantiation id="psk_soft_1" startorder="4">
+      <componentinstantiation id="psk_soft_1" startorder="5">
         <usagename>psk_soft_1</usagename>
         <componentproperties>
           <simpleref refid="differentialDecoding" value="true"/>
@@ -107,7 +110,7 @@ with this program.  If not, see http://www.gnu.org/licenses/.
     </componentplacement>
     <componentplacement>
       <componentfileref refid="fastfilter_73ad70df-4b48-410d-b236-0a9adbfcb7a1"/>
-      <componentinstantiation id="MatchedFilter" startorder="3">
+      <componentinstantiation id="MatchedFilter" startorder="4">
         <usagename>MatchedFilter</usagename>
         <componentproperties>
           <simplesequenceref refid="realFilterCoefficients">
@@ -148,6 +151,18 @@ with this program.  If not, see http://www.gnu.org/licenses/.
         </componentproperties>
         <findcomponent>
           <namingservice name="MatchedFilter"/>
+        </findcomponent>
+      </componentinstantiation>
+    </componentplacement>
+    <componentplacement>
+      <componentfileref refid="ArbitraryRateResampler_0b05d9fb-eeaf-42b7-a90a-33ad68d23806"/>
+      <componentinstantiation id="ArbitraryRateResampler_1" startorder="3">
+        <usagename>ArbitraryRateResampler_1</usagename>
+        <componentproperties>
+          <simpleref refid="outputRate" value="9500.0"/>
+        </componentproperties>
+        <findcomponent>
+          <namingservice name="ArbitraryRateResampler_1"/>
         </findcomponent>
       </componentinstantiation>
     </componentplacement>
@@ -205,10 +220,20 @@ with this program.  If not, see http://www.gnu.org/licenses/.
         <componentinstantiationref refid="psk_soft_1"/>
       </providesport>
     </connectinterface>
-    <connectinterface id="connection_12">
+    <connectinterface id="connection_1">
       <usesport>
         <usesidentifier>dataFloat_out</usesidentifier>
         <componentinstantiationref refid="TuneFilterDecimate_2"/>
+      </usesport>
+      <providesport>
+        <providesidentifier>dataFloat_in</providesidentifier>
+        <componentinstantiationref refid="ArbitraryRateResampler_1"/>
+      </providesport>
+    </connectinterface>
+    <connectinterface id="connection_2">
+      <usesport>
+        <usesidentifier>dataFloat_out</usesidentifier>
+        <componentinstantiationref refid="ArbitraryRateResampler_1"/>
       </usesport>
       <providesport>
         <providesidentifier>dataFloat_in</providesidentifier>

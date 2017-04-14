@@ -36,7 +36,7 @@ Source: %{name}-%{version}.tar.gz
 # Require the controller whose SPD is referenced
 Requires: rh.TuneFilterDecimate
 # Require each referenced component
-Requires: rh.TuneFilterDecimate rh.fastfilter rh.RBDSDecoder rh.AmFmPmBasebandDemod rh.psk_soft
+Requires: rh.TuneFilterDecimate rh.fastfilter rh.RBDSDecoder rh.AmFmPmBasebandDemod rh.psk_soft rh.ArbitraryRateResampler
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}
 
